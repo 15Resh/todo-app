@@ -3,7 +3,7 @@ import { getAllData, getDataById, createData, updateData, deleteData } from '../
 
 export const Router = express.Router()
 
-
+console.log('hello')
 Router.get('/', getAllData)
 
 Router.get('/:name', getDataById)
